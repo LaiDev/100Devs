@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(146, 219, 243);
+  max-width: 800px;
+  margin: 100px auto;
+}
+
+body > div {
+  border: 5px rgb(82, 190, 82) solid;
+  color: white;
+  padding: 25px;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+h1 {
+  font-style: italic;
+}
+
+a {
+  color: rgb(77, 185, 77);
+  font-weight: bold;
+}
+
+h1 + a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding-left: 50px;
+}
+
+img {
+  float: right;
+  width: 300px;
+}
+
+span {
+  color: rgb(2, 2, 37);
+}
