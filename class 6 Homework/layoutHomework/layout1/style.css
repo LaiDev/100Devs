@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+header,
+footer {
+  height: 100px;
+  border: 2px black solid;
+  clear: both;
+}
+
+section {
+  height: 300px;
+  width: 33.333%;
+  border: 2px black solid;
+  float: left;
+}
+
+.larger {
+
+  width: 50%;
+}
+
+@media screen and (min-width: 50px) {
+  
+  header,
+  footer
+  {
+    background-color: gray;
+  }
+  section
+  {
+    background-color: lightcoral;
+    float: none;
+  }
+
+  section,
+  .larger
+  {
+    width: 100%;
+  }
+
+  .larger
+  {
+    background-color: coral;
+  }
+  
+
+}
+
+@media screen and (min-width:775px) {
+  
+section
+{
+background-color: lightblue;
+float: left;
+width: 33.333%;
+}
+
+.larger
+{
+  width: 50%;
+  background-color: deepskyblue;
+}
+
+}
+
+@media screen and (min-width:1280px) {
+  
+  section
+  {
+  background-color: lightgreen;
+  }
+
+  .larger
+  {
+    background-color: darkolivegreen;
+  }
+  
+
+}
