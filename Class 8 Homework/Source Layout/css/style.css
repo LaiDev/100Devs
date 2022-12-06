@@ -31,7 +31,6 @@ button
 nav > img , .logo
 {
     height: 40px;
-
 }
 
 nav > img
@@ -48,7 +47,7 @@ a
 
 .logo
 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -68,7 +67,7 @@ h1
     padding: 15px 0px;
 }
 
-.sectionA > span
+.sectionA > div span
 {
     opacity: 25%;
 }
@@ -111,4 +110,132 @@ button
 .sectionA > img
 {
     float: left;
+}
+
+@media (min-width: 700px) {
+   
+  nav
+  {
+    height: 100px;
+  }
+    
+    nav > img , .logo
+{
+    height: 60px;
+}
+
+.logo
+{
+    font-size: 3rem;
+}
+
+.sectionA > div span
+{
+    font-size: 2rem;
+}
+   
+h1
+{
+    font-size: 3.5rem;
+}
+
+input, button
+{
+    font-size: 1.5rem;
+    height: 75px;
+}
+
+button
+{
+    margin: 50px 0px;
+}
+
+.sectionA p
+{
+    font-size: 2rem;
+    line-height: 50px;
+}
+    /*
+    .desktop
+    {
+        height: 75px;
+
+        padding: 10px;
+        border: 2px red solid;
+    }
+
+    .desktop *
+    {
+        float: left;
+        width: 33.333%;
+        display: block;
+
+    
+    }
+
+  */
+
+  .sectionA img
+  {
+    width: 750px;
+  }
+    
+
+ 
+}
+
+@media (min-width: 1280px)
+{
+
+    .sectionA
+    {
+        margin-top: 50px;
+    }
+
+  .sectionA > div
+  {
+    padding: 0px 50px;
+  }
+
+  .sectionA > div span
+  {
+    font-size: 2rem;
+  }
+  
+  h1
+  {
+    font-size: 4.5rem;
+  }
+
+.sectionA p
+{
+    font-size: 1.75rem;
+}
+
+   .sectionA > div, .sectionA > img
+   {
+    float: left;
+    width: 50%;
+   }
+
+  input, button
+  {
+    float: left;
+    width: 50%;
+    height: 55px;
+    padding: 0;
+    margin: 50px 0px;
+  }
+
+  input
+  {
+    padding: 0px 10px;
+  }
+
+  .sectionA > img
+  {
+    margin: -100px 0px;
+
+  }
+    
 }
