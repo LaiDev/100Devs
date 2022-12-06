@@ -1,0 +1,208 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    height: 50px;
+    background-color: #66768a;
+    padding: 15px;
+}
+
+
+
+nav div, .logo
+{
+    float: left;
+    width: 33.333%;
+    height: 50px;
+
+}
+
+.left > li a
+{
+    float: left;
+    width: 15%;
+
+}
+
+
+
+.right > li a
+{
+    background-color: white;
+    color: #66768a;
+    font-weight: bold;
+    margin-left: 300px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.logo
+{
+    font-size: 2rem;
+    text-align: center;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+ a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.sectionA
+{
+    background-color: #66768a;
+    color: white;
+    height: 75vh;
+    text-align: center;
+    padding: 100px 270px;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+p
+{
+    font-size: 1.2rem;
+    line-height: 25px
+}
+
+.sectionA > p
+{
+    margin: 50px 0;
+}
+
+.sectionA  span
+{
+    font-size: 1.2rem;
+    display: block;
+   
+}
+
+.sectionA > span + span
+{
+    margin: 50px 0px;
+    font-size: 1rem;
+    color: black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.sectionB
+{
+    text-align: center;
+    height: 50vh;
+    padding: 75px 400px;
+}
+
+.sectionB > p
+{
+    margin: 25px 0;
+}
+
+
+.sectionC
+{
+    height: 100vh;
+    background-color: #dbdfe2;
+    padding: 75px 250px;
+}
+
+.sectionC > article
+{
+    float: left;
+    width: 50%;
+    height: 85vh;
+    text-align: center;
+
+    
+}
+
+
+.articleImg
+{
+    margin: 0px auto;
+    height: 200px;
+    width: 350px;
+    background-color: #66768a;
+    margin-bottom: 20px;
+}
+
+.sectionC > article > span
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sectionC > article p
+{
+    padding: 15px 0px 50px 0px;
+}
+
+.button
+{
+
+    border: 2px gray solid;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.sectionD
+{
+    height: 70vh;
+    text-align: center;
+    padding: 100px 400px;
+}
+
+h2
+{
+   text-transform: uppercase;
+   font-size: 1.75rem; 
+}
+
+.sectionD > p
+{
+    margin: 15px 0px 50px 0px ;
+}
+
+
+footer
+{
+    height: 75px;
+    background-color: #161f2a;
+    padding: 10px;
+}
+
+.socials
+{
+    float: left;
+    
+}
+
+.socials > img
+{
+    width: 30px;
+}
+
+footer > span
+{
+    color: white;
+    float: right;
+    
+}
