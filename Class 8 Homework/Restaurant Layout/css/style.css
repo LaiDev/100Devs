@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+header
+{
+    background-color: #e0e9ee;
+}
+
+header ul
+{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px 50px;
+}
+
+h1
+{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+section
+{
+    padding: 0 100px;
+}
+
+.sectionA
+{
+    height: 70vh;
+    background-color: #e0e9ee;
+}
+
+.sectionA > .wrapper
+{
+    width: 40%;
+
+}
+
+input
+{
+    width: 70%;
+    border: 1px rgba(128, 128, 128, 0.418) solid;
+}
+
+select
+{
+    width: 29%;
+    background-color: #ff8800;
+    color: white;
+    border: none;
+}
+
+input, select
+{
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.socials
+{
+    margin-top: 20px;
+}
+
+.socials > ul
+{
+    display: flex;
+    gap: 50px;
+}
