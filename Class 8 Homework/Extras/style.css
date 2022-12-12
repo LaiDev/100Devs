@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+
+
+header
+{
+    height: 15px;
+    padding: 25px 150px;
+    background-color: rgba(2,0,36,1);
+}
+
+header a 
+{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.438);
+    text-transform: uppercase;
+}
+
+.rightNav li:first-child a
+{
+    color: white;
+}
+
+header .placeHolderImg
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 2px white solid;
+}
+
+nav ul, .rightNav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightNav
+{
+    gap: 50px;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+header .button 
+{
+    background-color: #383f4d;
+    color: white;
+}
+
+.button 
+{
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+main
+{
+    height: 100vh;
+    background: linear-gradient(175deg, rgba(2,0,36,1) 61%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+}
