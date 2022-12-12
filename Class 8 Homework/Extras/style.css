@@ -6,6 +6,7 @@
     padding: 0;
     font-size: 10px;
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
 }
 
 h1,
@@ -21,7 +22,7 @@ h6
 header
 {
     height: 15px;
-    padding: 45px 150px 150px;
+    padding: 45px 50px 150px;
     background-color: rgba(2,0,36,1);
 }
 
@@ -39,8 +40,8 @@ header a
 
 header .placeHolderImg
 {
-    width: 20px;
-    height: 20px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     border: 2px white solid;
 }
@@ -72,13 +73,15 @@ header .button
 {
     background-color: #383f4d;
     color: white;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .button 
 {
-    padding: 20px 50px;
+    padding: 20px 0;
     border-radius: 5px;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -94,26 +97,30 @@ main
 {
     display: flex;
     flex-direction: row;
+
 }
 
 h1
 {
     margin: 80px 0 10px;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 p
 {
     font-size: 2rem;
+    line-height: 35px;
 }
 
 .left, .right
 {
     width: 50%;
     height: 80%;
-    padding: 20px 150px;
+    padding: 20px 50px;
+
     display: flex;
     flex-direction: column;
+    
 }
 .left
 {
@@ -144,6 +151,7 @@ p
 {
     /* border: 2px blue solid; */
     justify-content: center;
+    align-items: center;
 }
 
 .right > .placeHolderImg
