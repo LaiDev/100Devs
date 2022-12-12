@@ -199,14 +199,14 @@ section
 
 .sectionA
 {
-    height: 65vh;
+    height: 100vh;
+  
 }
 
 .sectionA > .left
 {
+ 
     justify-content: space-between;
-
-    justify-content: space-evenly;
 }
 
 h2
@@ -231,29 +231,31 @@ h2
     flex-wrap: wrap;
     padding: 0;
     gap: 25px;
-    
+
 
 }
 
 .card
 {
     width: 45%;
-    height: 353px;
+
     text-align: center;
     border-radius: 10px;
     box-shadow: -6px 15px 27px 0px rgba(0,0,0,0.16);
+
     
 }
 
 .card > .placeHolderImg
 {
    
-    height: 250px;
+    height: 150px;
     background-color: #dee0ea;
- 
+    
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 15px;
+
 }
 
 .card > span
@@ -268,4 +270,5 @@ h2
     margin-top: 10px;
     font-size: 1.5rem;
     line-height: 20px;
+    padding: 0 15px 10px;
 }
