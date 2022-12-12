@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 *
 {
     margin: 0;
     padding: 0;
     font-size: 10px;
+    font-family: 'Raleway', sans-serif;
 }
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 header
 {
     height: 15px;
-    padding: 25px 150px;
+    padding: 45px 150px 150px;
     background-color: rgba(2,0,36,1);
 }
 
@@ -69,6 +80,7 @@ header .button
     border-radius: 5px;
     font-size: 1.75rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 main
@@ -86,7 +98,7 @@ main
 
 h1
 {
-    margin: 150px 0 10px;
+    margin: 80px 0 10px;
     font-size: 5rem;
 }
 
@@ -98,6 +110,7 @@ p
 .left, .right
 {
     width: 50%;
+    height: 80%;
     padding: 20px 150px;
     display: flex;
     flex-direction: column;
