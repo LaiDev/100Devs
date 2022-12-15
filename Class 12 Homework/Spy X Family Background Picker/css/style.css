@@ -37,7 +37,7 @@ h1
     width: 50vw;
     height: 50vh;
     border: 2px black solid;
-    margin: 50px 0 125px 0;
+    margin: 50px 0 85px 0;
     background-image:url("/img/forger-family-dancing-spy-x-family.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,11 +51,11 @@ ul
 
 li
 {
-    font-size: 1.25rem;
-    border: 1px rgb(145, 145, 145) solid;
+    font-size: 1rem;
+    border: 2px black solid;
     border-radius: 5px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     
     display: flex;
     align-items: center;
